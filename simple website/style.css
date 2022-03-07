@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html, body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+} 
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+html, body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.header .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #111;
+    letter-spacing: 2px;
+   }
+
+.header .menu ul {
+    display: flex;
+}
+
+.header .menu ul li {
+    margin: 0 10px;
+}
+
+.header .menu ul li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.header .login a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    background-color: lime;
+    color: #111;
+}
+
+.container {
+    height: calc(100% - 60px);
+    display: flex;
+}
+
+.container .sidebar {
+    width: 300px;
+    min-width: 300px;
+    border-right: 1px solid rgb(26, 24, 24);
+    overflow: auto;
+    padding: 25px;
+}
+
+.container .sidebar h6 {
+    font-size: 17px;
+    color: #333;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 10px;
+
+}
+
+.container .sidebar ul {
+    margin-bottom: 50px;
+
+}
+
+.container .sidebar ul li a {
+    display: block;
+    padding: 6px 15px;
+    color: #999;
+
+}
+
+.container .sidebar ul li a:hover {
+    background-color: #eee;
+    color: #111;
+}
+
+.container .sidebar ul:last-child {
+    margin-bottom: 0px;
+}
+
+.container .content {
+    padding: 25px;
+    /* overflow: auto; */
+}
+
+.container .content h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.container .content h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    border-left: 6px solid orange;
+    padding-left: 15px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+.container .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
+}
+
+.container .content ul {
+    margin-bottom: 15px;
+}
+
+.container .content ul li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+
+
+}
+
+.container .content code {
+    background-color: green;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
